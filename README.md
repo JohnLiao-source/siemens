@@ -17,22 +17,23 @@ the "Connected" industries.
 ## Installation
 
 ## Examples
-- [Start Simulation](http://34.81.108.66:9001/) Click the button to start the online simulation Username: simulation / Password: novakon
-- [Software Tutorial](https://www.novakon.com.tw/en/software/detail/iM_Connect) Select Software Tutorial to watch video tutorial.
-  
+- [Start Simulation](http://34.81.108.66:9001/) Click the button to start the online simulation （Username: simulation / Password: novakon）
+- [Software Tutorial](https://www.novakon.com.tw/en/software/detail/iM_Connect) Open the website and tab labeled "Software Tutorial" on the page.
+
 ## License
+For detailed license information, please refer to [License Declaration](license/main.html).
 
 ### Prerequisites
 
 Ensure you have the following installed:
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/) (or any other necessary software dependencies)
+- [Industrial Edge Hub](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_hub/setup/ieh_index.html)Select 
+- [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html)
+- [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html)
 
 ### Steps
 
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/username/project-name.git
-cd project-name
-npm install  # or another appropriate package manager, e.g., pip, yarn
+git clone https://github.com/JohnLiao-source/siemens.git
+cd siemens
