@@ -21,7 +21,11 @@ the "Connected" industries.
 - [Software Tutorial](https://www.novakon.com.tw/en/software/detail/iM_Connect) Open the website and tab labeled "Software Tutorial" on the page.
 
 ## License
-For detailed license information, please refer to [License Declaration](license/main.html).
+For detailed license information, please refer to the following:
+
+## License Declaration
+
+This project is licensed under the terms of the MIT license. See the [LICENSE](LICENSE) file for details.
 
 ### Prerequisites
 
