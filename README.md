@@ -38,22 +38,37 @@ To better understand how to use iM-Connect®, you can refer to the following sam
 2. **Data Acquisition**
     - Description: Shows how to acquire data from a PLC and display it on a dashboard.
     - Files: [Samples/TAG.dat](Samples/TAG.docx)
-    - Instructions: Follow the steps in the [Samples/TAG.docx](Samples/TAG.docx) file located in the sample directory.
+    - Instructions: Follow the steps in the [Samples/TAG.pdf](Samples/TAG.pdf) file located in the sample directory.
 
 1. **Datalogger Setup**
-    - Description: Demonstrates how to set up a datalog with a PLC.
+    - Description: Demonstrates how to set up datalog that record data to file/remote/database.
     - Files: [Samples/DATALOG.dat](Samples/DATALOG.dat)
-    - Instructions: Follow the steps in the [Samples/Datalogger.docx](Samples/Datalogger.docx) file located in the sample directory.
+    - Instructions: Follow the steps in the [Samples/Datalogger.pdf](Samples/Datalogger.pdf) file located in the sample directory.
 
 3. **Alarm triggered**
     - Description: Example of trigger condition and send alarm to people.
     - Files: [Samples/ALARM.dat](Samples/ALARM.dat)
     - Instructions: Follow the steps in the [Samples/Alarm.pdf](Samples/Alarm.pdf) file located in the sample directory.
 
-4. **IIOT Cloud Connection**
-    - Description: Demonstrates how to connect to an IIOT cloud service.
-    - Files: `samples/iiot-cloud-connection/`
-    - Instructions: Follow the steps in the `README.md` file located in the sample directory.
+4. **Macro Programing**
+    - Description: Demonstrates how to program by Javascript language.
+    - Files: [Samples/MACRO.dat](Samples/MACRO.dat)
+    - Instructions: Follow the steps in the [Samples/Macro.pdf](Samples/Macro.pdf) file located in the sample directory.
+
+5. **MQTT Connection**
+    - Description: Demonstrates how to use MQTT publisher(Device to Clound) and subscriber(Cloud to Device).
+    - Files: [Samples/MQTT.dat](Samples/MQTT.dat)
+    - Instructions: Follow the steps in the [Samples/MQTT.pdf](Samples/MQTT.pdf) file located in the sample directory.
+
+5. **OPCUA Connection**
+    - Description: Demonstrates how to use OPCUA to acquire data and write data to a PLC.
+    - Files: [Samples/OPCUA.dat](Samples/OPCUA.dat)
+    - Instructions: Follow the steps in the [Samples/OPCUA.pdf](Samples/OPCUA.pdf) file located in the sample directory.
+
+5. **REST API**
+    - Description: Demonstrates how to use RESTful API.
+    - Files: [Samples/RESTAPI.dat](Samples/RESTAPI.dat)
+    - Instructions: Follow the steps in the [Samples/RESTAPI.pdf](Samples/RESTAPI.pdf) file located in the sample irectory.
 
 Each sample project includes detailed instructions and necessary files to help you get started quickly.
 
