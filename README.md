@@ -7,40 +7,45 @@ the "Connected" industries.
 
 ## Table of Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Configuration](#configuration)
-4. [Examples](#examples)
-5. [Contributing](#contributing)
+1. [Prerequisites](#prerequisites)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Documents](#Documents)
+5. [Examples](#examples)
 6. [License](#license)
+7. [Steps](#Steps)
+
+### Prerequisites
+Ensure you have the following installed:
+1. [Industrial Edge Hub](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_hub/setup/ieh_index.html) Login IEH and create IEM instance.
+2. [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html) Install iM-CONNECT application on Edge Device
+3. [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html) Control iM-CONNECT application.
 
 ## Installation
 Follow the steps below to install the application.
 1. Open the [Industrial Edge Hub](https://dahocove.iehub.eu1.edge.siemens.cloud/) website and Copy latest version to IEM(s)
-2. Open the [Industrial Edge Management](https://blank) and install iM-CONNECT on Edge Device.<br><img src="images/open_IEM.png" alt="Project Logo" width="800"/>
+2. Open the [Industrial Edge Management](https://blank) and install iM-CONNECT on Edge Device.<br><img src="images/open_IEM.png" alt="Project Logo" width="900"/>
 3. Open the [Industrial Edge Device](https://blank) and control the application.
 
-### Usage
-1. Open the IED in the browser and click the iM-CONNECT icon</br><img src="images/open_website.png" alt="Project Logo" width="800"/>
+## Usage
+1. Open the IED in the browser and click the iM-CONNECT icon</br><img src="images/open_website.png" alt="Project Logo" width="900"/>
 2. Please refer to [the user manual](https://www.novakon.com.tw/common/frontend/download?path=/uploads/images/support/download/IM-Connect_User_Guide_Novakon_EN.pdf) to operate the software on Edge Device
-
-## Configuration
 
 To configure the project, follow these steps:
 
-## Examples
+## Documents
 - [Start Simulation](http://34.81.108.66:9001/) Click the button to start the online simulation （Username: simulation / Password: novakon）
 - [Software Tutorial](https://www.novakon.com.tw/en/software/detail/iM_Connect) Open the website and tab labeled "Software Tutorial" on the page.
-## Samples
 
+## Samples
 To better understand how to use iM-Connect®, you can refer to the following sample projects:
 
-2. **Data Acquisition**
+1. **Data Acquisition**
     - Description: Shows how to acquire data from a PLC and display it on a dashboard.
     - Files: [Samples/TAG.dat](Samples/TAG.docx)
     - Instructions: Follow the steps in the [Samples/TAG.pdf](Samples/TAG.pdf) file located in the sample directory.
 
-1. **Datalogger Setup**
+2. **Datalogger Setup**
     - Description: Demonstrates how to set up datalog that record data to file/remote/database.
     - Files: [Samples/DATALOG.dat](Samples/DATALOG.dat)
     - Instructions: Follow the steps in the [Samples/Datalogger.pdf](Samples/Datalogger.pdf) file located in the sample directory.
@@ -147,7 +152,7 @@ Each sample project includes detailed instructions and necessary files to help y
 <hr>
 <!-- 詳細內容Node.js -->
 <div class="license-card">
-    <div class="library-name" id="libraryA" style="font-size: 1.5em;">Node.js</div>
+    <div class="library-name" id="libraryA" style="font-size: 1.5em; font-weight: bold;">Node.js</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Node.js is a cross-platform, open-source server environment, Node.js is a back-end JavaScript runtime environment.<br> Contact:<a href="https://nodejs.org/">https://nodejs.org/</a></h4>
@@ -158,7 +163,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容Qt 4.8.7 -->
 <div class="license-card">
-    <div class="library-name" id="libraryB" style="font-size: 1.5em;">Qt 4.8.7</div>
+    <div class="library-name" id="libraryB" style="font-size: 1.5em; font-weight: bold;">Qt 4.8.7</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">The Qt GUI Toolkit is Copyright (C) 2013 Digia Plc and/or its subsidiary(-ies).<br> Contact:<a href="http://www.qt-project.org/legal">http://www.qt-project.org/legal</a></h4>
@@ -169,7 +174,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容Bootstrap-vue -->
 <div class="license-card">
-    <div class="library-name" id="libraryC" style="font-size: 1.5em;">BootstrapVue</div>
+    <div class="library-name" id="libraryC" style="font-size: 1.5em; font-weight: bold;">BootstrapVue</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">BootstrapVue is distributed under The MIT License (MIT)</h4>
@@ -179,7 +184,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容echart -->
 <div class="license-card">
-    <div class="library-name" id="libraryD" style="font-size: 1.5em;">ECharts</div>
+    <div class="library-name" id="libraryD" style="font-size: 1.5em; font-weight: bold;">ECharts</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">ECharts is distributed under Apache License Version 2.0.</h4>
@@ -189,7 +194,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 open62541 -->
 <div class="license-card">
-    <div class="library-name" id="libraryE" style="font-size: 1.5em;">open62541</div>
+    <div class="library-name" id="libraryE" style="font-size: 1.5em; font-weight: bold;">open62541</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">open62541 is licensed under the Mozilla Public License 2.0</h4>
@@ -200,7 +205,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 express -->
 <div class="license-card">
-    <div class="library-name" id="libraryF" style="font-size: 1.5em;">express</div>
+    <div class="library-name" id="libraryF" style="font-size: 1.5em; font-weight: bold;">express</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Copyright (c) 2009-2014 TJ Holowaychuk <tj@vision-media.ca><br>
@@ -213,7 +218,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 mqtt -->
 <div class="license-card">
-    <div class="library-name" id="libraryG" style="font-size: 1.5em;">MQTT</div>
+    <div class="library-name" id="libraryG" style="font-size: 1.5em; font-weight: bold;">MQTT</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Copyright (c) 2015-2016 MQTT.js contributors</h4>
@@ -224,7 +229,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 mysql -->
 <div class="license-card">
-    <div class="library-name" id="libraryH" style="font-size: 1.5em;">mysql</div>
+    <div class="library-name" id="libraryH" style="font-size: 1.5em; font-weight: bold;">mysql</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Copyright (c) 2012 Felix Geisendörfer (felix@debuggable.com) and contributors
@@ -236,7 +241,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容node-mssql -->
 <div class="license-card">
-    <div class="library-name" id="libraryI" style="font-size: 1.5em;">node-mssql</div>
+    <div class="library-name" id="libraryI" style="font-size: 1.5em; font-weight: bold;">node-mssql</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Contributions are very welcome!</h4>
@@ -248,7 +253,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 nodemailer -->
 <div class="license-card">
-    <div class="library-name" id="libraryJ" style="font-size: 1.5em;">nodemailer</div>
+    <div class="library-name" id="libraryJ" style="font-size: 1.5em; font-weight: bold;">nodemailer</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Copyright (c) 2011-2016 Andris Reinman.</h4>
@@ -259,7 +264,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 cors -->
 <div class="license-card">
-    <div class="library-name" id="libraryK" style="font-size: 1.5em;">cors</div>
+    <div class="library-name" id="libraryK" style="font-size: 1.5em; font-weight: bold;">cors</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Copyright (c) 2013 Troy Goode <troygoode@gmail.com>.</h4>
@@ -270,7 +275,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 ftp -->
 <div class="license-card">
-    <div class="library-name" id="libraryL" style="font-size: 1.5em;">ftp</div>
+    <div class="library-name" id="libraryL" style="font-size: 1.5em; font-weight: bold;">ftp</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Copyright Brian White. All rights reserved.</h4>
@@ -281,7 +286,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 asyncawait -->
 <div class="license-card">
-    <div class="library-name" id="libraryM" style="font-size: 1.5em;">asyncawait</div>
+    <div class="library-name" id="libraryM" style="font-size: 1.5em; font-weight: bold;">asyncawait</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px; margin-bottom: -20px;">Copyright (c) 2014-2016 Troy Gerwien.</h4>
@@ -292,7 +297,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 jsonwebtoken -->
 <div class="license-card">
-    <div class="library-name" id="libraryN" style="font-size: 1.5em;">node-jsonwebtoken</div>
+    <div class="library-name" id="libraryN" style="font-size: 1.5em; font-weight: bold;">node-jsonwebtoken</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px;">Reference:<a href="https://github.com/auth0/node-jsonwebtoken">https://github.com/auth0/node-jsonwebtoken</a>
@@ -302,7 +307,7 @@ Each sample project includes detailed instructions and necessary files to help y
 </div>
 <!-- 詳細內容 Vue -->
 <div class="license-card">
-    <div class="library-name" id="libraryO" style="font-size: 1.5em;">Vue</div>
+    <div class="library-name" id="libraryO" style="font-size: 1.5em; font-weight: bold;">Vue</div>
     <div class="content-container">
         <div class="content">
             <h4 style="margin-top:10px;">Reference:<a href="https://vuejs.org">https://vuejs.org</a>
@@ -320,15 +325,8 @@ Each sample project includes detailed instructions and necessary files to help y
         </div>
     </div>
 
-### Prerequisites
 
-Ensure you have the following installed:
-- [Industrial Edge Hub](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_hub/setup/ieh_index.html) Login IEH and create IEM instance.
-- [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html) Install iM-CONNECT application on Edge Device
-- [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html) Control iM-CONNECT application.
-
-### Steps
-
+## Steps
 Clone the repository and install the dependencies:
 
 ```bash
