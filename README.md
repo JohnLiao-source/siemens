@@ -48,7 +48,7 @@ To better understand how to use iM-Connect®, you can refer to the following sam
 3. **Alarm triggered**
     - Description: Example of trigger condition and send alarm to people.
     - Files: [Samples/ALARM.dat](Samples/ALARM.dat)
-    - Instructions: Follow the steps in the `Samples/Alarm.docx` file located in the sample directory.
+    - Instructions: Follow the steps in the [Samples/Alarm.pdf](Samples/Alarm.pdf) file located in the sample directory.
 
 4. **IIOT Cloud Connection**
     - Description: Demonstrates how to connect to an IIOT cloud service.
