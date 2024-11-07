@@ -18,7 +18,7 @@ the "Connected" industries.
 Follow the steps below to install the application.
 1. Open the [Industrial Edge Hub](https://dahocove.iehub.eu1.edge.siemens.cloud/) website and Copy latest version to IEM(s)
 2. Open the [Industrial Edge Management](https://blank) and install iM-CONNECT on Edge Device.<br>
-<img src="images/open_iem.png" alt="Project Logo" width="800"/><br>
+<img src="images/open_IEM.png" alt="Project Logo" width="800"/><br>
 3. Open the [Industrial Edge Device](https://blank) and control the application.
 
 ### Usage
