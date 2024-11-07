@@ -15,6 +15,20 @@ the "Connected" industries.
 6. [License](#license)
 
 ## Installation
+Follow the steps below to install the application.
+1. Open the [Industrial Edge Hub](https://dahocove.iehub.eu1.edge.siemens.cloud/) website and Copy latest version to IEM(s)
+2. Open the [Industrial Edge Management](https://blank) and install iM-CONNECT on Edge Device.<br>
+<img src="images/open_iem.png" alt="Project Logo" width="800"/><br>
+3. Open the [Industrial Edge Device](https://blank) and control the application.
+
+### Usage
+1. Open the IED in the browser and click the iM-CONNECT icon<br>
+<img src="images/open_website.png" alt="Project Logo" width="800"/>
+2. Please refer to [the user manula](https://www.novakon.com.tw/common/frontend/download?path=/uploads/images/support/download/IM-Connect_User_Guide_Novakon_EN.pdf) to operate the software on Edge Device
+
+## Configuration
+
+To configure the project, follow these steps:
 
 ## Examples
 - [Start Simulation](http://34.81.108.66:9001/) Click the button to start the online simulation （Username: simulation / Password: novakon）
@@ -268,23 +282,12 @@ the "Connected" industries.
         </div>
     </div>
 
-## Configuration
-
-To configure the project, follow these steps:
-
-1. Open the `config` directory.
-2. Edit the `config.json` file to match your environment settings.
-3. Save the changes.
-
-### Usage
-
-
 ### Prerequisites
 
 Ensure you have the following installed:
-- [Industrial Edge Hub](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_hub/setup/ieh_index.html)Select 
-- [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html)
-- [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html)
+- [Industrial Edge Hub](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_hub/setup/ieh_index.html) Login IEH and create IEM instance.
+- [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html) Install iM-CONNECT application on Edge Device
+- [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html) Control iM-CONNECT application.
 
 ### Steps
 
