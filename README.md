@@ -17,14 +17,12 @@ the "Connected" industries.
 ## Installation
 Follow the steps below to install the application.
 1. Open the [Industrial Edge Hub](https://dahocove.iehub.eu1.edge.siemens.cloud/) website and Copy latest version to IEM(s)
-2. Open the [Industrial Edge Management](https://blank) and install iM-CONNECT on Edge Device.<br>
-<img src="images/open_IEM.png" alt="Project Logo" width="800"/><br>
+2. Open the [Industrial Edge Management](https://blank) and install iM-CONNECT on Edge Device.<br><img src="images/open_IEM.png" alt="Project Logo" width="800"/>
 3. Open the [Industrial Edge Device](https://blank) and control the application.
 
 ### Usage
-1. Open the IED in the browser and click the iM-CONNECT icon<br>
-<img src="images/open_website.png" alt="Project Logo" width="800"/>
-2. Please refer to [the user manula](https://www.novakon.com.tw/common/frontend/download?path=/uploads/images/support/download/IM-Connect_User_Guide_Novakon_EN.pdf) to operate the software on Edge Device
+1. Open the IED in the browser and click the iM-CONNECT icon</br><img src="images/open_website.png" alt="Project Logo" width="800"/>
+2. Please refer to [the user manual](https://www.novakon.com.tw/common/frontend/download?path=/uploads/images/support/download/IM-Connect_User_Guide_Novakon_EN.pdf) to operate the software on Edge Device
 
 ## Configuration
 
@@ -33,6 +31,31 @@ To configure the project, follow these steps:
 ## Examples
 - [Start Simulation](http://34.81.108.66:9001/) Click the button to start the online simulation （Username: simulation / Password: novakon）
 - [Software Tutorial](https://www.novakon.com.tw/en/software/detail/iM_Connect) Open the website and tab labeled "Software Tutorial" on the page.
+## Samples
+
+To better understand how to use iM-Connect®, you can refer to the following sample projects:
+
+2. **Data Acquisition**
+    - Description: Shows how to acquire data from a PLC and display it on a dashboard.
+    - Files: [Samples/TAG.dat](Samples/TAG.docx)
+    - Instructions: Follow the steps in the [Samples/TAG.docx](Samples/TAG.docx) file located in the sample directory.
+
+1. **Datalogger Setup**
+    - Description: Demonstrates how to set up a datalog with a PLC.
+    - Files: [Samples/DATALOG.dat](Samples/DATALOG.dat)
+    - Instructions: Follow the steps in the [Samples/Datalogger.docx](Samples/Datalogger.docx) file located in the sample directory.
+
+3. **Alarm triggered**
+    - Description: Example of trigger condition and send alarm to people.
+    - Files: [Samples/ALARM.dat](Samples/ALARM.dat)
+    - Instructions: Follow the steps in the `Samples/Alarm.docx` file located in the sample directory.
+
+4. **IIOT Cloud Connection**
+    - Description: Demonstrates how to connect to an IIOT cloud service.
+    - Files: `samples/iiot-cloud-connection/`
+    - Instructions: Follow the steps in the `README.md` file located in the sample directory.
+
+Each sample project includes detailed instructions and necessary files to help you get started quickly.
 
 ## License
 <!-- 表格 -->
