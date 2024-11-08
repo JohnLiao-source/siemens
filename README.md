@@ -11,9 +11,9 @@ the "Connected" industries.
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Documents](#Documents)
-5. [Examples](#examples)
+5. [Samples](#Samples)
 6. [License](#license)
-7. [Steps](#Steps)
+7. [Download](#Download)
 
 ## Prerequisites
 - OS requirement: Ubuntu20.04 x86-64
@@ -327,7 +327,7 @@ Each sample project includes detailed instructions and necessary files to help y
     </div>
 
 
-## Steps
+## Download
 Clone the repository and install the dependencies:
 
 ```bash
