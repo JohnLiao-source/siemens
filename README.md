@@ -24,8 +24,8 @@ Ensure you have the following installed:
 ## Installation
 Follow the steps below to install the application.
 1. Open the [Industrial Edge Hub](https://dahocove.iehub.eu1.edge.siemens.cloud/) website and Copy latest version to IEM(s)
-2. Open the [Industrial Edge Management](https://blank) and install iM-CONNECT on Edge Device.<br><img src="images/open_IEM.png" alt="Project Logo" width="900"/>
-3. Open the [Industrial Edge Device](https://blank) and control the application.
+2. Open the [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html) and install iM-CONNECT on Edge Device.<br><img src="images/open_IEM.png" alt="Project Logo" width="900"/>
+3. Open the [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html) and control the application.
 
 ## Usage
 1. Open the IED in the browser and click the iM-CONNECT icon</br><img src="images/open_website.png" alt="Project Logo" width="900"/>
@@ -36,6 +36,7 @@ To configure the project, follow these steps:
 ## Documents
 - [Start Simulation](http://34.81.108.66:9001/) Click the button to start the online simulation （Username: simulation / Password: novakon）
 - [Software Tutorial](https://www.novakon.com.tw/en/software/detail/iM_Connect) Open the website and tab labeled "Software Tutorial" on the page.
+- [User Manual](Documents/IM-Connect%20User%20Guide%20Siemens.pdf) The user manual provides comprehensive instructions on how to use the iM-Connect® software, including setup, configuration, and troubleshooting tips. It is an essential resource for getting the most out of the software.
 
 ## Samples
 To better understand how to use iM-Connect®, you can refer to the following sample projects:
