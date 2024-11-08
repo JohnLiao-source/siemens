@@ -15,11 +15,11 @@ the "Connected" industries.
 6. [License](#license)
 7. [Steps](#Steps)
 
-### Prerequisites
-Ensure you have the following installed:
-1. [Industrial Edge Hub](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_hub/setup/ieh_index.html) Login IEH and create IEM instance.
-2. [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html) Install iM-CONNECT application on Edge Device
-3. [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html) Control iM-CONNECT application.
+## Prerequisites
+- OS requirement: Ubuntu20.04 x86-64
+- [Industrial Edge Hub](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_hub/setup/ieh_index.html) Login IEH and create IEM instance.
+- [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html) Install iM-CONNECT application on Edge Device
+- [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html) Control iM-CONNECT application.
 
 ## Installation
 Follow the steps below to install the application.
