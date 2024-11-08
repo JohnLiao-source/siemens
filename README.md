@@ -23,7 +23,7 @@ Ensure you have the following installed:
 
 ## Installation
 Follow the steps below to install the application.
-1. Open the [Industrial Edge Hub](https://dahocove.iehub.eu1.edge.siemens.cloud/){:target="_blank"} website and copy the latest version to IEM(s)
+1. Open the [Industrial Edge Hub](https://dahocove.iehub.eu1.edge.siemens.cloud/) website and Copy latest version to IEM(s)
 2. Open the [Industrial Edge Management](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_management/overview.html) and install iM-CONNECT on Edge Device.<br><img src="images/open_IEM.png" alt="Project Logo" width="900"/>
 3. Open the [Industrial Edge Device](https://docs.eu1.edge.siemens.cloud/get_started_and_operate/industrial_edge_device/setup_onboarding/sign_up/sign_up_with_configurated_email_server.html) and control the application.
 
