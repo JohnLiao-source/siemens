@@ -94,7 +94,7 @@ Each sample project includes detailed instructions and necessary files to help y
 | 2.2.24.06  | 2025-06-02 | - Fixed issue where runtime was not updated to the latest version |
 | 2.2.24.06  | 2025-06-18 | - Added PLC model support: Siemens DDC (BACnet/IP) |
 | 2.2.24.07  | 2025-07-03 | - Fixed `RestAPI` handling for `Content-Type: application/x-www-form-urlencoded` |
-| 2.2.24.07  | 2025-07-11 | - Added OPC UA HA support for `String` data type<br> - Enhanced MQTT client to subscribe and push source timestamp into historical data using the following format:<br> &nbsp;&nbsp;&nbsp;&nbsp;```js<br> var data = JSON.parse(msg);<br> if (data.Tag1) {<br> &nbsp;&nbsp;#1 = { value: data.Tag1.value, timeStamp: 0 };<br> &nbsp;&nbsp;if (data.Tag1.timeStamp) #1.timeStamp = data.Tag1.timeStamp;<br> }<br> ``` |
+| 2.2.24.07  | 2025-07-11 | - Added OPC UA HA support for `String` data type<br> - Enhanced MQTT client to subscribe and push source timestamp into historical data using the following format:<br> &nbsp;&nbsp;&nbsp;&nbsp;var data = JSON.parse(msg);<br> &nbsp;&nbsp;&nbsp;&nbsp;if (data.Tag1) {<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1 = { value: data.Tag1.value, timeStamp: 0 };<br> &nbsp;&nbsp;&nbsp;&nbsp;if (data.Tag1.timeStamp) {<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;#1.timeStamp = data.Tag1.timeStamp;<br> &nbsp;&nbsp;}<br> |
 | 2.2.24.07  | 2025-07-22 | - Fixed tag address parsing bug when adding new Bit-type tags (e.g., `x00.x`, `x000.x`) misinterpreted as `0.x` |
 | 2.2.24.07  | 2025-08-04 | - Added PLC driver for BACnet/IP<br> - Implemented OPC UA HA with both memory buffer (short-term) and SQLite3 (long-term) support<br> - Integrated MySQL 8.0 server for persistent data logging |
 
