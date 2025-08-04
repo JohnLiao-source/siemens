@@ -157,6 +157,10 @@ Each sample project includes detailed instructions and necessary files to help y
         <td align="left" valign="top">light-vue-tree</td>
         <td align="left" valign="top"><a href="#libraryP">MIT</a></td>
     </tr>
+    <tr>
+        <td align="left" valign="top">MySQL8.0</td>
+        <td align="left" valign="top"><a href="#libraryQ">GPLv2</a></td>
+    </tr>
 </table>
 <hr>
 <!-- 詳細內容Node.js -->
@@ -333,6 +337,17 @@ Each sample project includes detailed instructions and necessary files to help y
             </h4>
         </div>
     </div>
+</div>
+<!-- 詳細內容  MySQL8.0-->
+<div class="license-card">
+    <div class="library-name" id="libraryQ" style="font-size: 1.5em;">MySQL8.0</div>
+    <div class="content-container">
+        <div class="content">
+            <h4 style="margin-top:10px;">Reference:<a href=" https://www.mysql.com/about/legal/licensing/foss-exception/"> https://www.mysql.com/about/legal/licensing/foss-exception/</a>
+            </h4>
+        </div>
+    </div>
+</div>
 
 
 ## Download
