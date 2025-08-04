@@ -81,9 +81,23 @@ Each sample project includes detailed instructions and necessary files to help y
 
 ## Version History
 
+## Version History
+
 | Version    | Date       | Changes / Notes                                                                                     |
 |------------|------------|------------------------------------------------------------------------------------------------------|
-| 2.2.24.07  | 2025-08-04 | - Added PLC driver support for BACnet/IP<br> - Implemented OPC UA Historical Access using both in-memory buffer and SQLite3 for short-term and long-term data storage<br> - Integrated MySQL 8.0 server for persistent data log storage |
+| 2.2.24.04  | 2025-04-25 | - Fixed critical issue after upgrading from 2.2.22.04 to 2.2.24.00 that caused project startup failure:<br> &nbsp;&nbsp;- `mqttclient.resume` method missing<br> &nbsp;&nbsp;- SQLite missing table `SUBLINK_STATUS` caused error `[] None`<br> &nbsp;&nbsp;- Typo in Python function name: `error` => `Error`<br> &nbsp;&nbsp;- OPC UA client compatibility fix |
+| 2.2.24.04  | 2025-04-30 | - Fixed MQTT client connection failure due to incorrect `connectTimeout` unit (seconds used instead of milliseconds)<br> - Fixed incorrect type handling in Codesys driver when importing XML: `string`, `date_of_time`, `lword` |
+| 2.2.24.04  | 2025-05-15 | - Added OPC UA HA short-term recording using in-memory circular buffer<br> - Added OPC UA HA long-term recording using SQLite3 |
+| 2.2.24.05  | 2025-05-16 | - Fixed incorrect display of `Int64`/`UInt64` in Online Monitor<br> - Fixed byte-length bug when writing `Int64`/`UInt64` to SQLite3 |
+| 2.2.24.05  | 2025-05-23 | - Fixed memory leak in OPC UA HA with SQLite3<br> - Optimized write performance to SQLite3 |
+| 2.2.24.06  | 2025-05-29 | - Added MySQL 5.1.40 server installation package<br> - Added MySQL server control options |
+| 2.2.24.06  | 2025-06-02 | - Fixed issue where runtime was not updated to the latest version |
+| 2.2.24.06  | 2025-06-18 | - Added PLC model support: Siemens DDC (BACnet/IP) |
+| 2.2.24.07  | 2025-07-03 | - Fixed `RestAPI` handling for `Content-Type: application/x-www-form-urlencoded` |
+| 2.2.24.07  | 2025-07-11 | - Added OPC UA HA support for `String` data type<br> - Enhanced MQTT client to subscribe and push source timestamp into historical data using the following format:<br> &nbsp;&nbsp;&nbsp;&nbsp;```js<br> var data = JSON.parse(msg);<br> if (data.Tag1) {<br> &nbsp;&nbsp;#1 = { value: data.Tag1.value, timeStamp: 0 };<br> &nbsp;&nbsp;if (data.Tag1.timeStamp) #1.timeStamp = data.Tag1.timeStamp;<br> }<br> ``` |
+| 2.2.24.07  | 2025-07-22 | - Fixed tag address parsing bug when adding new Bit-type tags (e.g., `x00.x`, `x000.x`) misinterpreted as `0.x` |
+| 2.2.24.07  | 2025-08-04 | - Added PLC driver for BACnet/IP<br> - Implemented OPC UA HA with both memory buffer (short-term) and SQLite3 (long-term) support<br> - Integrated MySQL 8.0 server for persistent data logging |
+
 
 
 ## License
@@ -348,7 +362,6 @@ Each sample project includes detailed instructions and necessary files to help y
         </div>
     </div>
 </div>
-
 
 ## Download
 Clone the repository and install the dependencies:
