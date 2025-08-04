@@ -12,8 +12,9 @@ the "Connected" industries.
 3. [Usage](#usage)
 4. [Documents](#Documents)
 5. [Samples](#Samples)
-6. [License](#license)
-7. [Download](#Download)
+6. [Version History](#version-history)
+7. [License](#license)
+8. [Download](#Download)
 
 ## Prerequisites
 - OS requirement: Ubuntu20.04 x86-64
@@ -77,6 +78,13 @@ To better understand how to use iM-Connect®, you can refer to the following sam
     - Instructions: Follow the steps in the [Samples/RESTAPI.pdf](Samples/RESTAPI.pdf) file located in the sample irectory.
 
 Each sample project includes detailed instructions and necessary files to help you get started quickly.
+
+## Version History
+
+| Version    | Date       | Changes / Notes                                                                                     |
+|------------|------------|------------------------------------------------------------------------------------------------------|
+| 2.2.24.07  | 2025-08-04 | - Added PLC driver support for BACnet/IP<br> - Implemented OPC UA Historical Access using both in-memory buffer and SQLite3 for short-term and long-term data storage<br> - Integrated MySQL 8.0 server for persistent data log storage |
+
 
 ## License
 <!-- 表格 -->
